@@ -1,0 +1,178 @@
+/* ==== GLOBAL ==== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /*
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    */
+    --Light-red: hsl(356, 100%, 66%);
+    --Very-light-red: hsl(355, 100%, 74%);
+}
+
+body {
+    width: 100%;
+}
+
+
+a,button {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+}
+
+.white-button {
+    background: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    width: 12.5rem;
+    padding: 1rem 0;
+    border-radius: 32px;
+    font: 1.8rem  'Ubuntu', sans-serif ;
+    font-weight: 700;
+}
+
+.transparent-button {
+    background: transparent;
+    color: #fff;
+    padding: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    font: 1.8rem  'Ubuntu', sans-serif ;
+    font-weight: 700;
+}
+/* ==== MAIN HEADER ==== */
+header {
+    width: 100%;
+    height: 60vh;
+
+    background: url('./images/bg-pattern-intro.svg') no-repeat center var(--Very-light-red);
+    border-radius: 0 0 0 10rem;
+
+    display: flex;
+}
+
+header > section.header-container {
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+    margin:  5rem auto;
+
+    color: hsl(0, 0%, 100%);
+}
+
+header > section .navAndLogin  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > section #header-nav {
+    display: flex;
+    align-items: center;
+}
+
+header > section #header-nav > nav {
+    margin-left: 5rem;
+}
+
+header > section #header-nav nav .nav-option {
+    display: inline-block;
+    margin-left: 2rem;
+
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+header > section #header-nav nav .nav-option a span {
+    color: hsl(0, 0%, 100%);
+}
+
+header > section .navAndLogin .login button:first-child {
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    margin-right: 3rem;  
+} 
+
+header  > section  .contractUs {
+    margin-top: 10rem;
+}
+
+header > section  .contractUs article {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+header > section  .contractUs article > h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+header > section  .contractUs article > p {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+}
+
+header > section .contractUs .buy-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+header > section .contractUs .buy-now .white-button {
+    width: 15rem;
+    
+    margin-right: 2rem;
+}
+
+header > section .contractUs .buy-now .transparent-button {
+    width: 15rem;
+}
+
+/* ==== PRODUCT SECTION ====== */
+section.product-description {
+    font-family: 'Overpass', sans-serif;
+    margin-top: 15rem;
+}
+
+.product-description .title {
+    text-align: center;
+}
+
+.product-description .title > h2 {
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.product-description .product-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.product-description .product-description-container .product-articles article:first-child {
+    margin-bottom: 5rem;
+}
+
+.product-description .product-description-container .product-articles article > h3 {
+    font: 2.8rem 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.product-description .product-description-container .product-articles article > p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+
+
+
